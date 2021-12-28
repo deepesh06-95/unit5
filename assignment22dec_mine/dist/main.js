@@ -1,0 +1,1 @@
+(()=>{"use strict";function o(o,n){return o+n}console.log(o(5,10)),console.log(o(5,15))})();

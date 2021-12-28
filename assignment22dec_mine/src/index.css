@@ -1,0 +1,26 @@
+.redcolor{
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-gap:5%;
+}
+.grid1{
+    background-color: orange;
+    color: white;
+    margin: 2%;
+    height: 80px;
+}
+.inp{
+    width:85%;
+    height: 80px;
+    background-color: slategrey;
+    color: white;
+}
+.inp1{
+    height: 85px;
+    width: 10%;
+}

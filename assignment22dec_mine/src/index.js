@@ -1,0 +1,32 @@
+import { add } from "./addition";
+import("./index.css");
+import logo from "./logo.png";
+console.log(add(5,10));
+console.log(add(255,15));
+let h1=document.createElement("h1");
+h1.innerText = "Notepad-A place to put your notes.";
+h1.classList.add("redcolor");
+const logo_note=document.createElement("img");
+logo_note.src=logo;
+let div=document.createElement("input");
+div.classList.add("inp");
+let div1=document.createElement("div");
+div1.classList.add("grid");
+let btn=document.createElement("button");
+btn.textContent="Enter";
+btn.addEventListener("click",addnote);
+btn.classList.add("inp1");
+document.getElementById("root").appendChild(logo_note);
+document.getElementById("root").appendChild(h1);
+document.getElementById("root").appendChild(div);
+document.getElementById("root").appendChild(btn);
+document.getElementById("root").appendChild(div1);
+let count=1;
+function addnote(){
+   let val=div.value;
+   let c=document.createElement("div");
+   c.textContent=count+" "+val;
+   c.classList.add("grid1");
+   count++;
+   div1.appendChild(c);
+}

@@ -1,0 +1,20 @@
+{
+  "name": "we22dec_mine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build:watch": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "image-webpack-loader": "^8.0.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
