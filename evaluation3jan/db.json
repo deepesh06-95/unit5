@@ -15,6 +15,22 @@
       "image": "oooo.plus_16-removebg-preview.jpg",
       "instructions": "placea in cooker",
       "id": "TXXKWt_"
+    },
+    {
+      "title": "pizza",
+      "ingredients": "veggies,cheese,bread",
+      "time_to_cook": "25 min",
+      "image": "450d1b94-6376-4b7b-8cad-0eac9fbfceff.webm",
+      "instructions": "bake",
+      "id": "I68ioqv"
+    },
+    {
+      "title": "burger",
+      "ingredients": "bun bread ,aloo tikki , moyaneese ",
+      "time_to_cook": "5min",
+      "image": "oooo.plus_16.png",
+      "instructions": "oven it",
+      "id": "yJPJslb"
     }
   ]
 }
