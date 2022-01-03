@@ -31,6 +31,14 @@
       "image": "oooo.plus_16.png",
       "instructions": "oven it",
       "id": "yJPJslb"
+    },
+    {
+      "title": "puff",
+      "ingredients": "maida,salt,oil",
+      "time_to_cook": "45min",
+      "image": "WhatsApp Image 2021-12-07 at 23.52.28.jpeg",
+      "instructions": "bake in oven",
+      "id": "kfexltk"
     }
   ]
 }

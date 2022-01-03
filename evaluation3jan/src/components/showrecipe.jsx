@@ -12,12 +12,12 @@ export const Showing=()=>{
       }
       getUserDetails();
     const x=test.current;
-    // console.log(x);
+   //console.log(x);
     return (
         
         <>{x.map((e,i)=>
-            <div style={{fontSize:"12px",margin:"5px",display:"flex"}}>
-                <div><div>Reciepe-{i+1}</div>
+            <div style={{fontSize:"12px",margin:"5px",display:"grid",gridTemplateColumns:"30% 60%"}}>
+                <div style={{margin:"auto"}}><div>Reciepe-{i+1}</div>
                 <div>Title-{e.title}</div>
                 <div>Ingredients-{e.ingredients}</div>
                 <div>Time to cook-{e.time_to_cook}</div>
