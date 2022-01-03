@@ -1,5 +1,6 @@
 import { useState , useRef} from "react"
 import { nanoid } from "nanoid";
+import { Showing } from "./showrecipe";
 export const Form=()=>{
     const [form,setForm]=useState({
         title:"", 
@@ -38,6 +39,7 @@ export const Form=()=>{
                 'content-type': 'application/json'
             }
         }).then(() => console.log("done"));
+       
     }
     return (
         <form onSubmit={handleSubmit} >

@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { Form } from './components/Form';
+import { Showing } from './components/showrecipe';
 function App() {
   return (
     <div className="App">
@@ -9,7 +10,7 @@ function App() {
       <div className='left_form'> 
       <h3>Enter reciepe details</h3>
       <Form className="lef"/></div>
-      <div></div>
+      <div><Showing/></div>
       </div>
       
      

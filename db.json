@@ -1,0 +1,27 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "dal",
+      "ingredients": "haldi,salt",
+      "time_to_cook": "10min",
+      "image": "oooo.plus_16-removebg-preview.jpg",
+      "instructions": "keep in cooker",
+      "id": "5iNHzJj"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
