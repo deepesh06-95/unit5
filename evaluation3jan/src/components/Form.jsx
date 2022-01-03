@@ -7,7 +7,7 @@ export const Form=()=>{
         ingredients:"", 
         time_to_cook:"", 
         image:"",
-        instructions:""
+        instructions:"",
     })
     const [list,setList]=useState([]);
     const ref=useRef("");

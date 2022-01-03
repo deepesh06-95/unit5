@@ -1,17 +1,18 @@
 import { useState , useRef} from "react"
 
 export const Showing=()=>{
-   const [all,setAll]=useState("");
+   const [all,setAll]=useState([]);
    const test=useRef([]);
     const getUserDetails = () => {
         fetch('http://localhost:3001/posts')
           .then(data => data.json())
           .then(res => 
-              
-            test.current=res);
+              setAll(res))
+            // test.current=res);
       }
       getUserDetails();
-    const x=test.current;
+    // const x=test.current;
+    const x=all;
    //console.log(x);
     return (
         
