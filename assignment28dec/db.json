@@ -1,0 +1,37 @@
+{
+  "posts": [
+    {
+      "username": "deepesh",
+      "userage": "26",
+      "address": "lucknow",
+      "department": "mechanical",
+      "salary": "10000000",
+      "marital_state": false,
+      "profile_pic": "profile.PNG",
+      "status": false,
+      "id": "nob4R9b"
+    },
+    {
+      "username": "deepu",
+      "userage": "28",
+      "address": "lucknow uttar pradesh",
+      "department": "mechanical",
+      "salary": "10000000",
+      "marital_state": true,
+      "profile_pic": "profile.PNG",
+      "status": false,
+      "id": "SkaDx51"
+    },
+    {
+      "username": "deepesh singh",
+      "userage": "25",
+      "address": "lko",
+      "department": "cse",
+      "salary": "9000000",
+      "marital_state": false,
+      "profile_pic": "IMG_20180225_233921.jpg",
+      "status": false,
+      "id": "xLD6K-8"
+    }
+  ]
+}
