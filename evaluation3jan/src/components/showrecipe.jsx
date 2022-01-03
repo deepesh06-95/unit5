@@ -13,7 +13,7 @@ export const Showing=()=>{
       getUserDetails();
     // const x=test.current;
     const x=all;
-   //console.log(x);
+   console.log(x);
     return (
         
         <>{x.map((e,i)=>

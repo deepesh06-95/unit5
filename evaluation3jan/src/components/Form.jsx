@@ -7,7 +7,7 @@ export const Form=()=>{
         ingredients:"", 
         time_to_cook:"", 
         image:"",
-        instructions:"",
+        instructions:""
     })
     const [list,setList]=useState([]);
     const ref=useRef("");
@@ -42,7 +42,7 @@ export const Form=()=>{
        
     }
     return (
-        <form onSubmit={handleSubmit} >
+        <form onSubmit={handleSubmit}>
             <input onChange={handleChange} name="title" type="text" placeholder="title" style={{width:"100%"}}/>
             <input onChange={handleChange} name="ingredients" type="text" placeholder="ingredients" style={{width:"100%"}}/>
             <input onChange={handleChange} name="time_to_cook" type="text" placeholder="time_to_cook" style={{width:"100%"}}/>
